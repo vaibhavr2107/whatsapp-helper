@@ -4,8 +4,12 @@
     "es2021": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "next"],
+  "extends": [
+    "eslint:recommended",
+    "next"
+  ],
   "rules": {
+    "@next/next/no-document-import-in-page": "off",
     "no-unused-vars": "warn",
     "no-console": "warn"
   }

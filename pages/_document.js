@@ -9,7 +9,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html class="dark">
+      <Html className='dark'>
         <Head>
           <link
             rel='preload'
@@ -94,9 +94,9 @@ class MyDocument extends Document {
             content='/favicon/ms-icon-144x144.png'
           />
           <meta name='theme-color' content='#ffffff' />
-         
-          
-            
+
+
+
         </Head>
         <body>
           <Main />
